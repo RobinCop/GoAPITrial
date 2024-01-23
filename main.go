@@ -98,6 +98,6 @@ func main() {
 	router.POST("/books", createBook)       //curl localhost:8080/books --include --header "Content-Type: application/json" -d @body.json --request "POST"
 	router.PATCH("/checkout", checkoutBook) //curl localhost:8080/checkout?id=2 --request "PATCH"
 	router.PATCH("/return", returnBook)     //curl localhost:8080/return?id=2 --request "PATCH"
-	router.Run("localhost:8080")
+	router.Run("localhost:8080")            //Random git test commit
 
 }
